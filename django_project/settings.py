@@ -142,3 +142,6 @@ STATICFILE_DIRS =[
     os.path.join(BASE_DIR , "static"),
     'django-blog/blog/static/',
 ]
+
+import django_heroku
+django_heroku.settings(locals())
